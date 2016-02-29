@@ -5,6 +5,18 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MR_PSOFCM", "MR_PSOFCM\MR_PSOFCM.csproj", "{9C901860-7DB8-4F21-B635-5B2C6E987510}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Api", "MapReduce.Api\MapReduce.Api.csproj", "{236162D2-77A8-46C8-A2DC-356B6FBB16B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Core", "MapReduce.Core\MapReduce.Core.csproj", "{A9680732-28C7-463F-B61E-A808E2A9B96C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.DataAccess", "MapReduce.DataAccess\MapReduce.DataAccess.csproj", "{3CCEA73D-40DB-4077-85EC-1647D72917A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.NodeLauncher", "MapReduce.NodeLauncher\MapReduce.NodeLauncher.csproj", "{DD56A42F-41F7-48C3-AEFE-C75D02EB2F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Nodes", "MapReduce.Nodes\MapReduce.Nodes.csproj", "{5C91557F-DE71-4FFC-8F11-439786D3400F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapReduce.Serialization", "MapReduce.Serialization\MapReduce.Serialization.csproj", "{42440557-BCB4-4BD0-91E3-4825356A4512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{9C901860-7DB8-4F21-B635-5B2C6E987510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C901860-7DB8-4F21-B635-5B2C6E987510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C901860-7DB8-4F21-B635-5B2C6E987510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236162D2-77A8-46C8-A2DC-356B6FBB16B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236162D2-77A8-46C8-A2DC-356B6FBB16B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236162D2-77A8-46C8-A2DC-356B6FBB16B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236162D2-77A8-46C8-A2DC-356B6FBB16B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9680732-28C7-463F-B61E-A808E2A9B96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9680732-28C7-463F-B61E-A808E2A9B96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9680732-28C7-463F-B61E-A808E2A9B96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9680732-28C7-463F-B61E-A808E2A9B96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCEA73D-40DB-4077-85EC-1647D72917A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCEA73D-40DB-4077-85EC-1647D72917A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCEA73D-40DB-4077-85EC-1647D72917A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCEA73D-40DB-4077-85EC-1647D72917A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD56A42F-41F7-48C3-AEFE-C75D02EB2F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD56A42F-41F7-48C3-AEFE-C75D02EB2F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD56A42F-41F7-48C3-AEFE-C75D02EB2F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD56A42F-41F7-48C3-AEFE-C75D02EB2F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C91557F-DE71-4FFC-8F11-439786D3400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C91557F-DE71-4FFC-8F11-439786D3400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C91557F-DE71-4FFC-8F11-439786D3400F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C91557F-DE71-4FFC-8F11-439786D3400F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42440557-BCB4-4BD0-91E3-4825356A4512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42440557-BCB4-4BD0-91E3-4825356A4512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42440557-BCB4-4BD0-91E3-4825356A4512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42440557-BCB4-4BD0-91E3-4825356A4512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
